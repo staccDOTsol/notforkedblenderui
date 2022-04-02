@@ -60,7 +60,6 @@ function Pools() {
         { wallet?.connected ? (
           <div className="row">
           <div className="pool-header">
-          <h2>Active Pools</h2>
           </div>
           {/* TODO: make table sortable */}
           <TableContainer component={Paper} sx={{maxWidth: 2000, margin: 'auto', backgroundColor: '#2A2440'}}>

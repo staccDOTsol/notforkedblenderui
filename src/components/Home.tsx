@@ -217,7 +217,11 @@ var  tx2 = await fanoutSdk.sendInstructions(
     {
     wallet?.connected ? (
       <Paper style={{width: 500, marginTop: 15, marginBottom: 15, backgroundColor: '#2A2440' }} elevation={3}> 
+         <video width="100%" controls>
+          <source src="/mp4.mp4" type="video/mp4" />
+         </video>
          <Grid container spacing={2}>
+         
          <Grid style = {{ display: 'flex', justifyContent: 'center', alignContent: 'center'}} item xs={12}>
          <h2 style={{color: '#fff'}}> Pool Fanout Actions</h2>
          </Grid>
